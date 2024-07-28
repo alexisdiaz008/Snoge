@@ -1,0 +1,35 @@
+/* Specify in CSS */
+body {
+    font-family: "Fira Code", monospace;
+    height: 100%;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    background-image: url("MrSneed_fade.JPG");         
+    background-repeat: no-repeat;   
+    background-position: bottom right;
+    background-attachment:fixed;
+}
+
+@supports (font-variation-settings: normal) {
+  code {
+    font-family: "Fira Code VF", monospace;
+  }
+}
+
+#logo {
+        width: 300px;
+        height: auto;
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #a5a5a5;
+    text-decoration: none;
+}
