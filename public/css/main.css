@@ -19,10 +19,18 @@ body {
 }
 
 #logo {
-        width: 300px;
-        height: auto;
-    }
-
+  width: 300px;
+  height: auto;
+  padding: 3rem;
+}
+.bio-padding {
+  padding: 5rem;
+}
+.bio {
+  padding: 3rem 0 0 0;    
+  text-align: left;
+  line-height: 3rem;
+}
 .container {
     display: flex;
     flex-direction: column;
