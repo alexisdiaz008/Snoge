@@ -5,5 +5,13 @@ get '/' do
 end
 
 get '/the_secret_of_my_bark' do
-  erb :the_secret_of_my_bark
+  erb :'stories/the_secret_of_my_bark'
+end
+
+get '/bereavement' do
+  erb :'stories/bereavement'
+end
+
+get '/the_next_stop_is_bleeker_and_vamp' do
+  erb :'stories/the_next_stop_is_bleeker_and_vamp'
 end
