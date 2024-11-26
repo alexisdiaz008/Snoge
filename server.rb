@@ -15,3 +15,7 @@ end
 get '/the_next_stop_is_bleeker_and_vamp' do
   erb :'stories/the_next_stop_is_bleeker_and_vamp'
 end
+
+get '/an_unexpected_alliance' do
+  erb :'stories/an_unexpected_alliance'
+end
