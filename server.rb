@@ -19,3 +19,7 @@ end
 get '/an_unexpected_alliance' do
   erb :'stories/an_unexpected_alliance'
 end
+
+get '/the_oval_office' do
+  erb :'stories/the_oval_office'
+end
